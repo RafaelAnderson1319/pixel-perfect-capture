@@ -154,7 +154,6 @@ function Index() {
             height={720}
             className="absolute bottom-16 left-0 w-[42%] object-contain sm:left-2"
           />
-          <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-background/80 to-transparent" />
         </Reveal>
       </section>
 
