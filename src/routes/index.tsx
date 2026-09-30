@@ -75,7 +75,7 @@ function Navbar() {
       </button>
 
       {open && (
-        <nav className="col-span-2 flex flex-col gap-4 border-t border-border pt-4 md:hidden">
+        <nav className="flex w-full flex-col gap-4 border-t border-border pt-4 md:hidden">
           {links.map((l, i) => (
             <a
               key={l}
@@ -154,7 +154,7 @@ function Index() {
             height={720}
             className="absolute bottom-16 left-0 w-[42%] object-contain sm:left-2"
           />
-          <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-background to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-background/80 to-transparent" />
         </Reveal>
       </section>
 
