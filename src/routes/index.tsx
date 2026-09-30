@@ -40,7 +40,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
   const links = ["HOME", "ABOUT US", "CONTACT US"];
   return (
-    <header className="relative z-20 mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-6 md:px-10">
+    <header className="relative z-20 mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-5 py-6 md:px-10">
       <a href="/" className="font-serif text-2xl font-bold tracking-tight">
         <span className="text-wine">Wine</span> <span className="text-foreground">Box</span>
       </a>
@@ -64,6 +64,7 @@ function Navbar() {
         <Heart className="size-5 stroke-[1.5] text-foreground transition-colors hover:text-wine" />
         <ShoppingCart className="size-5 stroke-[1.5] text-wine" />
       </div>
+
 
       <button
         aria-label="Menu"
